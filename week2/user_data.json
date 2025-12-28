@@ -1,0 +1,25 @@
+{
+    "name": "陆远",
+    "job": "AI开发者",
+    "interests": [
+        "撸猫",
+        "参加AI开发者聚会",
+        "参加技术峰会",
+        "研究 AI Agent",
+        "开发者大会",
+        "科幻电影",
+        "吃海鲜面",
+        "撸代码"
+    ],
+    "tech_stack": [
+        "Kubernetes",
+        "Java",
+        "LangChain",
+        "时空数据库",
+        "Python",
+        "2077年的卫星定位系统",
+        "Spring Boot",
+        "Rust",
+        "量子技术"
+    ]
+}
