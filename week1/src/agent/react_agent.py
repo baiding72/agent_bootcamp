@@ -1,6 +1,8 @@
 from langchain.agents import create_agent
 from src.llm.qwen import get_llm
 from src.tools.web_search import web_search
+from src.prompts.react_prompt import REACT_PROMPT
+
 
 def create_react_agent():
     llm = get_llm()
@@ -8,7 +10,8 @@ def create_react_agent():
 
     agent = create_agent(
         model=llm,
-        tools=tools
+        tools=tools,
+        system_prompt=REACT_PROMPT
     )
 
     return agent
